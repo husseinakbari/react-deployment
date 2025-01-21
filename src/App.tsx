@@ -23,7 +23,7 @@ function App() {
         </button>
       </div>
       <p className="read-the-docs">
-        version 1.0.0
+        version {import.meta.env.VITE_VERSION} {import.meta.env.MODE}
       </p>
     </>
   )
